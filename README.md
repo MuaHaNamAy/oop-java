@@ -15,3 +15,4 @@
 | Bài | Mô tả |
 |---|---|
 | [PhanTichThuaSoNguyenTo](BaiLuyenTap/JavaCoBan/PhanTichThuaSoNguyenTo.java) | Phân tích một số thành thừa số nguyên tố |
+| [TongGiaiThua](BaiLuyenTap/JavaCoBan/TongGiaiThua.java) | Tính tổng 1! + 2! + ... + n! |
