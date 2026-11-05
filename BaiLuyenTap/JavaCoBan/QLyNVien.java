@@ -18,7 +18,7 @@ class OfficeEmployee extends QLyNVien {
     }
     @Override
     long Luong() {
-        return soNgayLamViec * LuongO;
+        return (long) soNgayLamViec * LuongO;
     }
 }
 class TechEmployee extends QLyNVien {
