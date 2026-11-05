@@ -1,4 +1,4 @@
-import java.util.scanner;
+import java.util.Scanner;
 public class BoiSo {
     public static void main(String[] args) {
         Scanner bs = new Scanner(System.in);
