@@ -3,11 +3,9 @@ import java.io.*;
 public class TongTS {
     public static void main(String[] args) throws IOException {
         final int MAX = 2000000;
-
-        // Sang: spf[x] = uoc nguyen to nho nhat cua x
         int[] spf = new int[MAX + 1];
         for (int i = 2; i <= MAX; i++) {
-            if (spf[i] == 0) { // i la so nguyen to
+            if (spf[i] == 0) { 
                 for (int j = i; j <= MAX; j += i) {
                     if (spf[j] == 0) {
                         spf[j] = i;
